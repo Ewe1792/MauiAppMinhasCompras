@@ -1,8 +1,8 @@
 namespace MauiAppMinhasCompras.Views;
 
-public partial class NovoProduto : ContentView
+public partial class NewPage1 : ContentPage
 {
-	public NovoProduto()
+	public NewPage1()
 	{
 		InitializeComponent();
 	}
