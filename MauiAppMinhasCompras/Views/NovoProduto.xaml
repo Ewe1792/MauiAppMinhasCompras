@@ -5,13 +5,18 @@
              Title="Novo Produto">
 
     <ContentPage.ToolbarItems>
-        <ToolbarItem Text="Salvar" />
+        <ToolbarItem Text="Salvar" Clicked="ToolbarItem_Clicked" />
         
     </ContentPage.ToolbarItems>
     <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
+        <Label Text="Descrição do produto: " />
+        <Entry x:Name="txt_descricao" />
+        
+        <Label Text="Quantidade: " />
+        <Entry x:Name="txt_quantidade" Keyboard="Numeric"/>
+
+        <Label Text="Preço" />
+        <Entry x:Name="txt_preco" Keyboard="Numeric" />
+        
     </VerticalStackLayout>
 </ContentPage>
